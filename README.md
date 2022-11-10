@@ -1,7 +1,21 @@
 # dnd-5e-spells
 ## Datasets and analysis of Dungeons &amp; Dragons 5th Edition spells.
+## For D&D players
+### How to use these assets
+**Hello! Are you a D&D Player? Don't know how to use Python? Don't worry, you're exactly the kind of person I want to help.**
+
+First of all, ***you don't need to know Python to use the Spells dataset.*** You can simply download the 'D&D 5E Spells.xlsx' file, open it on Excel, Google Sheets, or another app like it, and you're good to go.
+
+However, if you want to use the dataset to its full potential, I recommend installing [Anaconda Navigator](https://www.anaconda.com/products/distribution). It will save you a ton of time and effort by creating an environment with loads of useful Python libraries already installed. For .py files, I recommend using the Spyder application, and Jupyter Notebook for .ipynb files (for these, you can also use Google Colab, but I can't recommend Google for anyone who wants to protect their data). If you do decide to use Anaconda, remember to launch the applications through the Anaconda Navigator app.
+
+When you download this repository, it will come as a zipped file. After you extract it, you will find the folders inside exactly as they are organized on Github. Now, I've separated the datasets from the other files to make things more organized, but if you want to run any scripts (either .py or .ipynb files), **you have to put the dataset you're trying to look at in the same folder as the script.** Personally, I'd just copy them to the correct folders since they aren't very large files, but I also don't have any storage issues on my computer.
+
+For Jupyter Notebooks, when you launch the app, it will open a new tab on your browser (don't worry, this is normal). There, you will see all the folders on your computer. Find the one with your notebooks (the .ipynb files) and click on the file to open it. Once you have the file open, run all of the cells (there's a button at the top, or you can press either Ctrl+return or Shift+return to run the cell). If you do this right, you will see that the very first cell with code in it has text on the left that says: "In [1]:". That means it was your first input after you opened the file.
+
+A quick note: **on the spells_analysis.ipynb file, there is a cell you should not run, or it _will_ give you an error.** It's the cell right before you see the _Infestation_ spell. When I was creating the dataset, I spelled 'Instataneous' instead of 'Instantaneous' on the 'duration' column. That cell was me trying to find out which spell I did that on. After I did, I corrected the spelling mistake in the .xlsx file.
+
 ### On the datasets
-These datasets were meant to be a resource for both players and data scientists alike. The goal was to make all the information about D&D spells readily available and easily accessible to all, **for free.** Basically, I was tired of having to look up spells in the physical books or third-party websites, while DND Beyond has an excellent filtering system that can find you exactly what spell or spells you're looking for, with the *small* caveat of having to pay hundreds of US dollars for the digital assets that include certain spells.
+These datasets were meant to be a resource for both players and data scientists alike. The goal was to make all the information about D&D spells readily available and easily accessible to all, ***for free.*** Basically, I was tired of having to look up spells in the physical books or third-party websites, while DND Beyond has an excellent filtering system that can find you exactly what spell or spells you're looking for, with the *small* caveat of having to pay hundreds of US dollars for the digital assets that include certain spells.
 
 These datasets were all created by hand. I manually transcribed all the information about these spells. Naturally, as I am human, I may have made some mistakes. If you find any, please do let me know.
 
