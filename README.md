@@ -14,6 +14,7 @@ For Jupyter Notebooks, when you launch the app, it will open a new tab on your b
 
 A quick note: **on the spells_analysis.ipynb file, there is a cell you should not run, or it _will_ give you an error.** It's the cell right before you see the _Infestation_ spell. When I was creating the dataset, I spelled 'Instataneous' instead of 'Instantaneous' on the 'duration' column. That cell was me trying to find out which spell I did that on. After I did, I corrected the spelling mistake in the .xlsx file.
 
+## Details
 ### On the datasets
 These datasets were meant to be a resource for both players and data scientists alike. The goal was to make all the information about D&D spells readily available and easily accessible to all, ***for free.*** Basically, I was tired of having to look up spells in the physical books or third-party websites, while DND Beyond has an excellent filtering system that can find you exactly what spell or spells you're looking for, with the *small* caveat of having to pay hundreds of US dollars for the digital assets that include certain spells.
 
@@ -32,5 +33,5 @@ The /other_scripts folder is where I'll be posting things like functions, so I c
 ### For the future
 The end goal is not only to create a script that lets users look up spells with a filtering system as good as what DND Beyond has available, but also to make a script that lets users easily consult their known spells and select their prepared spells.
 
-### Disclaimer
+## Disclaimer
 ***This work was not authorized by Hasbro, Wizards of the Coast LLC, Dungeons & Dragons, or DND Beyond.***
