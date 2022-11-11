@@ -29,6 +29,8 @@ The one containing all the spells is 'D&D 5E Spells.xlsx'. The other datasets ar
 
 There are other datasets to add to the /datasets folder. They are datasets with the stat blocks for creatures summoned or created by spells. I haven't settled on a standard format for all of them, since some creatures have very different attributes (some have damage immunities, condition immunities, or even bonus actions, where others do not). Since this work was primarily focused on spells, I did put too much effort into creatures. I am working on deciding the structure for a dataset of creatures, but until then, I will refrain from posting those datasets. When I do, all creature stat blocks will be in a single dataset.
 
+**An important note on spells from the _Explorer's Guide To Wildemount_:** Most of the spells from that book are either chronurgy or graviturgy spells, two different dunamancy schools of magic created by Matt Mercer. I made a conscious choice to omit this information from those spells. Technically, this is missing information. But, for most of them, you can figure out which one of those schools the spell belongs to either by its name or description. There are a few spells that are neither chronurgy or graviturgy, though.
+
 ### On the analysis
 This is a work in progress. Right now, I will work towards making the general analysis of all the spells (that is, the full dataset). Eventually, when time allows it, I will analyze more specific items, such as: spells with material components, spells of a certain class, spells from a certain school of magic, etc. If you have any suggestions for things that I should look for during these, feel free to send them my way.
 
