@@ -28,7 +28,7 @@ These datasets were all created by hand. I manually transcribed all the informat
 
 The one containing all the spells is 'D&D 5E Spells.xlsx'. The other datasets are all tables for specific spells, such as *Teleport* and *Control Weather*, for example.
 
-The spells are all named as they appear in the pages of the books that describe them. That means they all start with capital letters, if they have more than one word, the other words also start with capital letters, but **prepositions (such as 'into', 'and', 'of' and others) _do not_.** The columns 'V', 'S', 'M' stand for verbal, somatic and material components, respectively. 
+The spells are all named as they appear in the pages of the books that describe them. That means they all start with capital letters, if they have more than one word, the other words also start with capital letters, but **prepositions (such as 'into', 'and', 'of' and others) and articles _do not_.** The columns 'V', 'S', 'M' stand for verbal, somatic and material components, respectively. 
 
 There are other datasets to add to the /datasets folder. They are datasets with the stat blocks for creatures summoned or created by spells. I haven't settled on a standard format for all of them, since some creatures have very different attributes (some have damage immunities, condition immunities, or even bonus actions, where others do not). Since this work was primarily focused on spells, I did put too much effort into creatures. I am working on deciding the structure for a dataset of creatures, but until then, I will refrain from posting those datasets. When I do, all creature stat blocks will be in a single dataset.
 
