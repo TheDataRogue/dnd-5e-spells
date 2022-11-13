@@ -40,7 +40,7 @@ This is a work in progress. Right now, I will work towards making the general an
 ### On the other scripts
 The /other_scripts folder is where I'll be posting things like functions, so I can easily import them into other files (especially to make my analysis more consistent).
 
-**When I first uploaded these files, there was one file called spells_function.py. _It is no longer there._ I have since updated it to be classes_function.py, to make it clearer (the name of the function was also updated accordingly). The functionality is the same, the name was changed because I thought it was insufficient to explain what it does.**
+**When I first uploaded these files, there was one file called spells_function.py. _It is no longer there._ I have since updated it to be classes_function.py, to make it clearer. The functionality is the same, the name was changed because I thought it was insufficient to explain what it does.**
 
 ### For the future
 The end goal is not only to create a script that lets users look up spells with a filtering system as good as what DND Beyond has available, but also to make a script that lets users easily consult their known spells and select their prepared spells.
