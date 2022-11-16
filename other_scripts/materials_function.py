@@ -10,20 +10,22 @@ import pandas as pd
 df = pd.read_excel("D&D 5E Spells.xlsx")
 spells = df.sort_values('name').reset_index().drop('index',axis=1)
 
-material_components = spells[spells["M"].notna()]
-
-def find_materials(spell_name:str):
+def find_materials(data, spell_name:str):
     """
     Searches for the material components of a spell when given its name.
     
     Parameters
     --------
-    spell_name : string object that must be a spell name.
+    data : Selects the DataFrame object you want to use for this function.
+    
+    spell_name : str
+        String object that must be a spell name.
     
     Returns
     --------
     None.
     """
+    material_components = data[data["M"].notna()]
     spell_list = [i for i in material_components["name"]]
     if spell_name not in spell_list:
         raise NameError("Spell has no material components, or name was typed incorrectly.")
