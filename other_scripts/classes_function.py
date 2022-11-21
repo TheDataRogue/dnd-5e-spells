@@ -10,6 +10,23 @@ df = pd.read_excel("D&D 5E Spells.xlsx")
 spells = df.sort_values('name').reset_index().drop('index',axis=1)
 spells
 
+def separate_classes(data):
+    """
+    Turns the strings of the 'classes' column into lists, with the classes
+    being one element each.
+
+    Parameters
+    ----------
+    data : Selects the DataFrame object you want to use for this function.
+
+    Returns
+    -------
+    None.
+
+    """
+    data['classes'] = [i.split(',') for i in data['classes']]
+    return
+
 def class_spells(data,char_class:str):
     """
     Filters the spells of a given D&D 5E character class and organizes them
